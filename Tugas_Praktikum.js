@@ -1,3 +1,7 @@
+document.getElementById("ubah_tema").addEventListener("click", function() {
+    document.body.classList.toggle("dark-theme");
+});
+
 document.addEventListener("DOMContentLoaded", function() {
     const popup = document.createElement("div");
     popup.classList.add("popup-image");
