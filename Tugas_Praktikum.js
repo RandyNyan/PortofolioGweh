@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const popup = document.createElement("div");
     popup.classList.add("popup-image");
-    popup.innerHTML = '<img src="stiker.jpg" alt="Gambar Keren">';
+    popup.innerHTML = '<img src="Stiker.jpg" alt="Gambar Keren">';
     popup.style.display = "none";
     document.body.appendChild(popup);
 
